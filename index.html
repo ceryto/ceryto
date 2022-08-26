@@ -20,21 +20,28 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <a class="navbar-brand" href="https://ceryto.github.io">Ceryto</a>
+            <button class="navbar-toggler border-style-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#tos">T.O.S</a>
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item text-white">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-white">
+                        <a class="nav-link" href="#tos">ToS</a>
+                    </li>
+                    <li class="nav-item text-white">
                         <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item text-white btn-contact">
+                        <a class="nav-link" href="mailto:ceryto1542@gmail.com">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -42,10 +49,14 @@
     </nav>
 
 
-    <!-- gallery -->
-<!-- <<<<<<< HEAD -->
-    <section class="gallery">
-        <div class="container-lg">
+    <!-- banner -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+    </div>
+
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container-lg  mt-5 mb-5">
             <div class="row gy-4 row-cols-1 row-cols-sm-2 row-col-md-3">
                 <div class="col">
                     <img src="/images/red-plane.png" class="img-fluid rounded-3 gallery-item" alt="red-plane.png">
@@ -57,31 +68,26 @@
                     <img src="/images/mountains.png" class="img-fluid rounded-3 gallery-item" alt="mountains.png">
                 </div>
                 <div class="col">
-                    <img src="/images/red-plane.png" class="img-fluid rounded-3 gallery-item" alt="red-plane.png">
+                    <img src="/images/kitsuki-castle.jpg" class="img-fluid rounded-3 gallery-item"
+                        alt="kitsuki-castle.jpg">
                 </div>
                 <div class="col">
-                    <img src="/images/cliff.png" class="img-fluid rounded-3 gallery-item" alt="cliff.png">
+                    <img src="/images/hit-the-wave.png" class="img-fluid rounded-3 gallery-item" alt="hit-the-wave.png">
                 </div>
                 <div class="col">
-                    <img src="/images/mountains.png" class="img-fluid rounded-3 gallery-item" alt="mountains.png">
+                    <img src="/images/beach.jpg" class="img-fluid rounded-3 gallery-item" alt="beach.jpg">
                 </div>
-<!-- ======= -->
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img src="/images/red-plane.png" class="img-fluid" alt="red-plane.png">
-<!-- >>>>>>> efdc3836e35d524b9248f57c62af1488e1ec56a6 -->
-            </div>
-        </div>
+                <div class="col">
+                    <img src="/images/riverside.jpg" class="img-fluid rounded-3 gallery-item" alt="riverside.jpg">
+                </div>
     </section>
 
 
     <!-- tos -->
     <section class="tos">
-        <div class="container" id="tos">
-            <div class="row gy-4 mt-1">
+        <div class="container mt-5 mb-5" id="tos">
+            <div class="row gy-4">
                 <div class="col">
-                    <!-- <h1>TOS</h1> -->
                     <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -94,17 +100,40 @@
                             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="panelsStayOpen-headingOne">
                                 <div class="accordion-body">
-                                    Hi, you've come to the right gig to make your illustrations as needed :)<br>
-                                    I will create a custom scene/background/environment for you for a great price!<br>
-                                    In the first stage of the work, I will make a sketch. We will discuss the layout and
-                                    composition of the work with you. You are welcome to make revisions.<br>
-                                    In the second stage of the work, I will detail and polish the work. This process
-                                    will take the second and most of the time part of the time.<br>
-                                    At the end of the work, you will receive artwork in my realistic style in the
-                                    high-resolution image: JPG, PNG, KRA (Krita), and full commercial ownership.<br>
-                                    I will be waiting to work with you! Please write me and we will create wonderful
-                                    artwork together.<br>
-                                    Have a nice day!
+                                    <p class="card-text fw-bolder">
+                                        Hi, you've come to the right site to make your illustrations
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p class="card-text">
+                                                <i class="fa-solid fa-circle-dot"></i>
+                                                In the first stage of the work, I will make a sketch. We will discuss
+                                                the layout and
+                                                composition of the work. You are welcome to make revisions
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="card-text">
+                                                <i class="fa-solid fa-circle-dot"></i>
+                                                In the second stage of the work, I will detail and polish the work. This
+                                                process
+                                                will take the second and most of the time part of the time
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="card-text">
+                                                <i class="fa-solid fa-circle-dot"></i>
+                                                At the end of the work, you will receive artwork in my realistic style
+                                                in
+                                                the
+                                                high-resolution image: JPG, PNG, KRA (Krita), and full commercial
+                                                ownership
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <p class="card-text">
+                                        See you in our upcoming commission work, wherever you are out there
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -161,6 +190,11 @@
                                             </p>
                                         </li>
                                     </ul>
+                                    <p class="card-text">
+                                        Commissions progress <a
+                                            href="https://trello.com/b/TXJ53zGx/ceryto1-commission-status">please check
+                                            it</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +210,7 @@
                                 aria-labelledby="panelsStayOpen-headingThree">
                                 <div class="accordion-body">
                                     <!-- <div class="container text-center"> -->
-                                    <h5 class="text-center mt-3 mb-4">Choose your package</h5>
+                                    <h5 class="text-center mt-3 mb-4 fw-bolder">Choose your package</h5>
                                     <div class="row row-cols-1 row-cols-md-3">
                                         <div class="col mb-3">
                                             <div class="card">
@@ -216,7 +250,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="card-footer text-center" style="background-color: #adb5bd;">
-                                                    <h4 class="text-white"><small>$</small>5</h4>
+                                                    <h4 class="text-white"><small>$</small>10</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -332,9 +366,51 @@
     <!-- about -->
     <section class="about mt-5 bg-dark">
         <div class="container" id="about">
-            <div class="row">
-                <div class="col mt-5">
-                    <h1 class="text-white text-center">about</h1>
+            <div class="row mt-5">
+                <div class="col-sm-6 col-photo">
+                    <div class="container d-flex justify-content-center">
+                        <div class="row d-flex flex-column justify-content-center">
+                            <div class="col">
+                                <img src="/images/myPhoto.jpg" class="photo-profile" alt="profile.jpg">
+                            </div>
+                            <div class="col mt-3 mb-3">
+                                <p class="text-white text-center">Muhammad Faqihudin</p>
+                            </div>
+                            <div class="col col-comms-open">
+                                <small class="card-text text-white text-comms-open">
+                                    Commission open <i class="fa-solid fa-circle-check fa-xs"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-description">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <p class="card-text text-white">Why did I choose the name Ceryto? At that time, the word
+                                    crypto began to be discussed and remembered the planet kryptonite where Superman
+                                    came from, then thought about making an abbreviation that was easier to remember for
+                                    a pen name.</p>
+                            </div>
+                            <hr class="mt-4">
+                            <div class="col">
+                                <div class="container d-flex justify-content-center align-items-center">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col">
+                                            <ul>
+                                                <li><a href="mailto:ceryto1542@gmail.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col">
+                                            <li><a href="https://twitter.com/ceryto1"><i
+                                                        class="fa-brands fa-twitter"></i></a></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -347,7 +423,6 @@
         <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
